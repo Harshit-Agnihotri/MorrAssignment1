@@ -10,7 +10,7 @@ import com.google.android.material.textfield.TextInputEditText;
 public class Date {
     private TextInputEditText textView;
     public Date(ActivityMainBinding activityMainBinding){
-        textView = activityMainBinding.dateInputLayout;
+        textView = activityMainBinding.dateEntryLayout;
     }
 
     public void dateFormat(){
